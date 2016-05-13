@@ -12,7 +12,7 @@ wget http://172.19.106.68/automation/benchmarking/cpu/official-ws-avx2-smt-on-ra
 chmod 775 official-ws-avx2-smt-on-rate.sh
 cd config
 rm -f cpu2006.1.2.ic14.0.linux64.ws.avx2.rate.15aug2013.cfg
-wget http://172.19.106.68/automation/benchmarking/cpu/cpu2006_config.zip
+wget http://172.19.106.68/automation/benchmarking/cpu/DellHadoop/cpu2006_config.zip
 unzip cpu2006_config.zip
 cd ..
 ./official-ws-avx2-smt-on-rate.sh
