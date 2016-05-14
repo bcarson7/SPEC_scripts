@@ -1,4 +1,5 @@
-yum install libstdc++-devel.i686 -y 
+yum install libstdc++-devel.i686 -y
+yum install numactl -y
 mkdir cpu2006
 cd cpu2006
 wget http://172.19.106.68/software/benchmarking/cpu/cpu2006.1.2.ic14.0.linux64.for.OEMs.16jan2014.tar
