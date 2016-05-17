@@ -4,7 +4,6 @@ cd specpower
 wget http://172.19.106.68/software/benchmarking/specpower/ssj.zip
 unzip ssj.zip
 cd ssj
-rm -f runssj.sh
 wget  http://172.19.106.68/software/benchmarking/specpower/ceph.sh
 chmod 775 ceph.sh
 ./ceph.sh
