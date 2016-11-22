@@ -1,5 +1,5 @@
 export OMP_NUM_THREADS=1
-./streamscale | grep 'Threads\|Copy\|Scale\|Add\|Triad' > stream.log
+./stream-scale | grep 'Threads\|Copy\|Scale\|Add\|Triad' > stream.log
 for i in {2..24}
 do
 export OMP_NUM_THREADS=$i
