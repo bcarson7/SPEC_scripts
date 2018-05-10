@@ -1,3 +1,4 @@
-sudo yum install -y docker
-sudo systemctl enable docker.service;sudo systemctl start docker;docker pull veyesecurity/phoronix
-
+yum install -y docker
+systemctl enable docker.service
+systemctl start docker
+docker pull veyesecurity/phoronix
