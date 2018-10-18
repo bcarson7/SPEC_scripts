@@ -21,5 +21,4 @@ cd ..
 cd ..
 cp *.py cpu2006/result
 cd cpu2006
-screen
 ./official-ws-avx2-smt-on-rate.sh;./official-ws-avx2-smt-on-rate.sh;./official-ws-avx2-smt-on-rate.sh
