@@ -14,4 +14,4 @@ tar -xvf cpu2006.1.2.ic14.0.linux64.for.OEMs.16jan2014.tar
 #wget http://172.19.106.68/software/benchmarking/cpu/official-ws-avx2-smt-on-rate.sh
 wget http://172.19.106.68/software/benchmarking/cpu/hope-ws-avx2-smt-on-rate.sh
 chmod 775 hope-ws-avx2-smt-on-rate.sh
-./hope-ws-avx2-smt-on-rate.sh
+./hope-ws-avx2-smt-on-rate.sh;./hope-ws-avx2-smt-on-rate.sh;./hope-ws-avx2-smt-on-rate.sh
